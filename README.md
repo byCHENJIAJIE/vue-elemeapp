@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # sell
 
 > sell app
@@ -19,3 +20,7 @@ npm run build --report
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+=======
+# vue-elemeapp
+用vue仿饿了么app
+>>>>>>> aa3c26596918797e46a22b33d4b59211aaed8ca0
