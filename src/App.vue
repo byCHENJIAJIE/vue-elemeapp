@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <v-header></v-header>
+    <v-header :seller="seller"></v-header>
     <div class="tab border-1px">
       <!--todo active-class属性直接在这里加-->
       <router-link to="goods" class="tab-item" active-class="active">商品</router-link>
