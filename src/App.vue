@@ -7,7 +7,7 @@
       <router-link to="ratings" class="tab-item" active-class="active">评论</router-link>
       <router-link to="seller" class="tab-item" active-class="active">商家</router-link>
     </div>
-    <router-view class="content"></router-view>
+    <router-view class="content" :seller="seller"></router-view>
   </div>
 </template>
 

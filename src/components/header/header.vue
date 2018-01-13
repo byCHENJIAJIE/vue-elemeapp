@@ -73,20 +73,20 @@
         type: Object
       }
     },
-    data () {
+    data() {
       return {
         detailShow: false
       };
     },
     methods: {
-      showDetail () {
+      showDetail() {
         this.detailShow = true;
       },
-      hideDetail () {
+      hideDetail() {
         this.detailShow = false;
       }
     },
-    created () {
+    created() {
       this.classMap = ['decrease', 'discount', 'special', 'invoice', 'guarantee'];
     },
     components: {

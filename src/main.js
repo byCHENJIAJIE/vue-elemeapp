@@ -2,13 +2,13 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue';
 import App from './App';
-import router from './router'; // TODO 不知道为什么要改成下面那个 (在./router中设置了)
+import router from './router'; //  (在./router中设置了)
 // import VueRouter from 'vue-router';
 import VueResource from 'vue-resource';
 
 import 'common/stylus/index.styl';
 
-Vue.config.productionTip = false; // TODO 有什么用
+Vue.config.productionTip = false;
 
 Vue.use(VueResource);
 
